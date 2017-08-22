@@ -17,7 +17,30 @@
 <h1 class="p1">参加赛事</h1>
 <input type="button" class="button_back" onclick="javascript:history.back(-1);" value="">
 <div id="enjoyed">
-	
+	<h4>官方赛事:</h4>
+		<table id="mainTable" class="display hover" border="1">
+			<thead>
+				<tr>
+					<th width="10%">赛事名称</th>
+					<th width="10%">举办地</th>
+					<th width="10%">举办时间</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+			</tbody>
+		</table>
+		<h4>邀请赛事:</h4>
+		<table id="mainTable1" class="display hover" border="1">
+			<thead>
+				<tr>
+					<th width="10%">赛事名称</th>
+					<th width="10%">举办地</th>
+					<th width="10%">举办时间</th>
+				</tr>
+			</thead>
+			<tbody id="tbody1">
+			</tbody>
+		</table>
 </div>
 </body>
 <script src="../../js/urlApi/api.js"></script>
